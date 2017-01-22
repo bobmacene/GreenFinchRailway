@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace GreenFinchRailway
 {
@@ -12,6 +8,7 @@ namespace GreenFinchRailway
         public string Route { get; set; }
         public bool isAvailable { get; set; } = true;
         public int Distance { get; set; }
+
         public RouteInfo(string route)
         {
             Depth = 1;
